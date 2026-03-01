@@ -1,10 +1,10 @@
-#include <stdio.h>
+# include<stdio.h>
 
-int main(){
-    char name[]= "ali";
-    int age = 20;
-    float height=1.75;
-    printf("Hello %s, you are %d! and %.2f meters tal\n", name, age,height);
-    
+int main (){
+    char name[] = "ali";
+    int age= 20;
+
+    double num=3.15;
+    printf("my name is%s and my age is%d and my num is %.2f", name,age,num);
     return 0;
 }
