@@ -6,5 +6,5 @@ int main (){
 
     double num=3.15;
     printf("my name is%s and my age is%d and my num is %.2f", name,age,num);
-    return ;
+    return 0 ;
 }
