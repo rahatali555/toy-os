@@ -1,13 +1,13 @@
 # include<stdio.h>
 
 int main (){
-    char name[20];
+    char name[50];
     int age;
-    printf(" enter your name: "\n);
+    printf("whats you name: \n");
     scanf("%s", name);
-   printf("whats your age: "\n);
-   scanf("%d",&age);
-   printf("heloo %s, you are%d," name,age);
-   return 0;
-}
+    printf("whats your age: \n");
+    scanf("%d", &age);
+    printf("my name is %s and i am %d years old", name,age);
+    return 0;
 
+}
