@@ -1,9 +1,10 @@
 # include<stdio.h>
 
 int main(){
-    int i;
-    for(i=0;i<7;i++){
-        printf("yes you got it\n");
-    }
-}
+   char grade;
 
+   printf("what is your grade:\n");
+    scanf("%c",&grade);
+printf("your grade is %c \n",grade);
+return 0;
+}
