@@ -1,9 +1,9 @@
 # include<stdio.h>
 
 int main(){
-    int i =6;
-    while (i>0){
-    printf("%d\n",i);
-    i--;}
-return 0;}
+    int i;
+    for(i=0;i<7;i++){
+        printf("yes you got it\n");
+    }
+}
 
