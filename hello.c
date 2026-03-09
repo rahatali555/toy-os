@@ -1,11 +1,11 @@
 # include<stdio.h>
 
 int main(){
-int i;
-for(i=6;i>=2;i--){
-    printf("hi there \n");
-    
-}
+    int i =0;
+    while(i<=10){
+        printf("hi \n");
+        i++;
+    }
+    return 0;}
 
-return 0;
-}
+
