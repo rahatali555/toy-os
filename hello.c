@@ -3,11 +3,9 @@
 
 int main(){
    
-   int question ;
-   printf("how many times \n");
-   for(int q = 0; q < question; q++){
-    printf("hi\n");
-   } 
+int luckyNumber[]={3,4,6,8} ;
+luckyNumber[0]=1000;
+printf("%d",luckyNumber[0]);
    return 0;    }
   
 
