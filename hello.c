@@ -1,13 +1,14 @@
 # include<stdio.h>
 
+ void SayHi(char name[]){
+   printf("hi %s", name);
+ } 
 int main(){
-   SayHi();
+   SayHi("rahat");
 
    return 0;   };
 
    
- void SayHi(){
-   printf("hi there");
- } 
+
 
 
