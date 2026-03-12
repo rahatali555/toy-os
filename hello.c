@@ -1,12 +1,13 @@
 # include<stdio.h>
 
-
 int main(){
+   SayHi();
+
+   return 0;   };
+
    
-int luckyNumber[5]={1,2,3,4,5};
-luckyNumber[0]=12;
-printf("%d", luckyNumber[0]);
-   return 0;    }
-  
+ void SayHi(){
+   printf("hi there");
+ } 
 
 
