@@ -1,12 +1,11 @@
 # include<stdio.h>
 
-void sayHi(char name[], int age){
-   printf("Hi %s you are %d years old",name,age);
+double cube(double num){
+  double  result= num *num *num;
+  return result;
 }
 int main (){
-   sayHi("rahat",32);
-   sayHi("rahat",32);
-   sayHi("rahat",32);
+   printf("result = %f ",cube(3.0));
    return 0;
 }
 
