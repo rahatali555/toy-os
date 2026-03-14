@@ -1,12 +1,9 @@
 # include<stdio.h>
 
-double square(double num)
-   {
-    const double result= num * num;
-    return result;
-   }
-int main ()
-{
-    printf("answer=%f", square(2.2));
+int main(){
+    int i=0;
+    while(i<4){
+        printf("meow\n");
+   i++; }
 }
 
