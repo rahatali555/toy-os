@@ -1,9 +1,13 @@
 # include<stdio.h>
 
-int main(){
-    
-    for(int i=0;i<4;i++){
-        printf("meow\n");
+double square(double num)
+   {
+    const double result= num * num;
+    return result;
    }
+int main ()
+{
+    printf("answer=%f", square(2.2));
+    return 0;
 }
 
