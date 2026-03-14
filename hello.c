@@ -1,14 +1,12 @@
 # include<stdio.h>
 
-double cube(double num){
-  const  double result = num * num * num;
-  return result;
+double square(double num)
+   {
+    const double result= num * num;
+    return result;
+   }
+int main ()
+{
+    printf("answer=%f", square(2.2));
 }
-double main (){
-    printf("anser=%f" , cube(2.2));
-    return 0;
-}
-   
-
-
 
