@@ -1,9 +1,11 @@
 # include<stdio.h>
-
+double square(double num);
 int main(){
-   
-    for(  int i=0; i<4; i++){
-    printf("hello world\n");
-}
+   printf("result=%f",  square(2.2));
 return 0;
+}
+
+double square(double num){
+    double result= num*num;
+    return result;
 }
