@@ -14,7 +14,8 @@ int max(int num1, int num2, int num3){
 }
 int main (){
     printf("%d",(2,3,5));
-    return 0;}
+    return 0;
+}
 
 
 
